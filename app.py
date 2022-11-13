@@ -62,6 +62,16 @@ def profile():
     opencv.cap.release()
     return render_template('profile.html')
 
+@app.route("/choice")
+def choice():
+    opencv.cap.release()
+    return render_template('choice.html')
+
+@app.route("/audio")
+def audio():
+    opencv.cap.release()
+    return render_template('audio_out.html')
+
 # Copyrigths:
 # Devanand
 # Dhinesh

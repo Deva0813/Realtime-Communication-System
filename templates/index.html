@@ -11,14 +11,19 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/872673ab28.js" crossorigin="anonymous"></script>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../static/index.css">
     <link rel="shortcut icon" href="../static/img/favicon_1.ico" type="image/x-icon">
+    
     <title>Realtime Communication System</title>
 </head>
 <body class="body_trans">
     
         <div class="nav_head">
-            <div class="nav_title"><h1>Realtime Communication System</h1></div>
+            <div class="nav_title"><h1 style="font-weight: 600;" >Realtime Communication System</h1></div>
             <div class="icons">
                 <ul class="header-list">
                     <li class="header-list-elements"><a class="link-tag" id="profile_page" href='profile'>Profile</a></li>
@@ -35,24 +40,24 @@
             <div class="main_page">
                 <div class="main_btn">
                     <div class="main_btn_head">
-                        <h2>
+                        <h2 style="font-size: 50px; font-weight: 600; margin:40px 0px; " >
                             Realtime communication system<br>
                             powered by A.I. for specially abled<br>
                             
                         </h2>
                     </div>
                     <div class="main_btn_msg">
-                        <p>
+                        <p style="margin:0px;" >
                             A sign language is a way of communicating by using the hands and other parts of the body.
                             It should not be confused with body language.Sign languages are an important way for deaf people to communicate.
                         </p>
                     </div>
                     <div class="main_btn_foot">
-                        <a href="translate" onclick="server.on_rec()">START TRANSLATE</a>
+                        <a href="choice" onclick="server.on_rec()">START TRANSLATE</a>
                     </div>
                 </div>
                 <div class="main_img">
-                    <img src="../static/img//sign_lang_1.png" alt="sign lang">
+                    <img style="width:80%; heigth:80%;" src="../static/img//sign_lang_1.png" alt="sign lang">
                 </div>
             </div>
             <!-- Main_Page -->
@@ -87,12 +92,15 @@
                             using signs which get converted to human-understandable language and speech is given as output.
                         </p>
                     </div>
-                    <img src="../static/img/modelCNN.png" alt="cnn" >
+                    <div class="pro_img">
+                        <img src="../static/img/modelCNN.png" alt="cnn" >
+                    </div>
+                    
                 </div>
 
                 <div class="slide_cont">
                     <div class="slide_head">
-                        <h1>Output Preview</h1>
+                        <h1 style="font-size: 100px; font-weight: 600; margin:50px 0px;"  >Output Preview</h1>
                         </div>
                     <img src="../static/img/output.png" alt="out">
 
@@ -119,29 +127,66 @@
                 <div class="tech_cont">
 
                     <div class="tech_txt">
-                        <h1>Technology Stack</h1>
+                        <h1 style="font-size: 100px; font-weight: 600; margin:50px 0px" >Technology Stack</h1>
                     </div>
+
+                    <div class="tech_double_con">
+
+                            <div class="slide_main_tech">
+                                <div class="carousel slide " id="banner" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active" data-bs-interval="5000">
+                                            <img src="../static/img/front-end-gif.gif" class="w-100 d-block h-25">
+                                        </div>
+                                        <div class="carousel-item" data-bs-interval="5000"> 
+                                            <img src="../static/img/back-end-gif.gif" class="w-100 h-25 d-block">
+                                        </div>
+                                        <div class="carousel-item" data-bs-interval="5000">
+                                            <img src="../static/img/Ml.gif" class="w-100 d-block">
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <button data-bs-target="#banner" data-bs-slide="prev" class="carousel-control-prev ">
+                                            <span class="carousel-control-prev-icon"></span>
+                                        </button>
+                                        <button data-bs-target="#banner" data-bs-slide="next" class="carousel-control-next ">
+                                            <span class="carousel-control-next-icon"></span>
+                                        </button>
+                                        <div class="carousel-indicators">
+                                            <button class="active" data-bs-slide-to="0" data-bs-target="#banner"></button>
+                                            <button data-bs-slide-to="1" data-bs-target="#banner"></button>
+                                            <button data-bs-slide-to="2" data-bs-target="#banner"></button>
+                                    </div>
+                                    
+                                </div>
+                
+                            </div>
+
+                    </div>
+                    
 
                     <div class="tech_img">
                         <img src="../static/img/html_icon.png" alt="HTML">
                         <img src="../static/img/css_icon.png" alt="CSS">
                         <img src="../static/img/javascript_logo.png" alt="JAVASCRIPT">
-                        <img src="../static/img/python_icon.png" style="padding:24px; width:100px; height:100px;" alt="PYTHON">
-                        <img src="../static/img/flask-logo.png" style="padding: 14px 10px; width:130px; height:120px;" alt="FLASK">
-                        <img src="../static/img/tensorflow_logo.png" style="padding:24px; width:100px; height:100px;" alt="TENSORFLOW">
-                        <img src="../static/img/OpenCV_logo.png" style="padding:24px; width:100px; height:100px;" alt="OPENCV">
+                        <img src="../static/img/python_icon.png" style="padding:24px; width:150px; height:150px;" alt="PYTHON">
+                        <img src="../static/img/flask-logo.png" style="padding: 14px 10px; width:150px; height:150px;" alt="FLASK">
+                        <img src="../static/img/tensorflow_logo.png" style="padding:24px; width:150px; height:150px;" alt="TENSORFLOW">
+                        <img src="../static/img/OpenCV_logo.png" style="padding:24px; width:150px; height:150px;" alt="OPENCV">
                         <img src="../static/img/mediapipe.png" alt="MEDIAPIPE">
                     </div>
-                    
 
                 </div>
+                
 
             </div>
+
+            
 
         </div>
 
         <footer>
-            <p id="copyrights" style="color: #474E68; font-size:15px; text-align:center;"></p>
+            <p id="copyrights" style="color: #474E68; font-size:15px; text-align:center; margin-top:20px;"></p>
         </footer>
         <script>
             const d = new Date();

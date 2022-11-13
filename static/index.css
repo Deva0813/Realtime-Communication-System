@@ -12,6 +12,25 @@ body{
     background-attachment: fixed;
 }
 
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+
+::-webkit-scrollbar-track{
+    background: #fff;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #404258;
+    background: linear-gradient(180deg,#0162c8,#1bcaff);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: linear-gradient(180deg,#6801c8,#ff0f73);
+}
 
 .nav_head{
     background: rgba(255, 255, 255, 0.5);
@@ -74,7 +93,8 @@ body{
 }
 
 .main_btn{
-    flex: 1;
+    width: 50%;
+    height: 50%;
     display: flex;
     flex-direction: column;
 }
@@ -84,6 +104,7 @@ body{
     font-size: 30px;
     flex: 1;
 }
+
 
 .main_btn_msg{
     flex: 2;
@@ -126,7 +147,8 @@ body{
 }
 
 .main_img{
-    flex: 1;
+    width: 50%;
+    height: 50%;
     filter: drop-shadow(0 0 30px rgba(0, 0, 0, 0.3));
     text-align: center;
 }
@@ -212,7 +234,10 @@ body{
     border: 1px solid #474E68;
     margin:50px;
     margin-top: 20px;
-    margin-left:600px;
+}
+
+.pro_img{
+    text-align: center;
 }
 
 .slide_cont{
@@ -220,6 +245,8 @@ body{
     text-align: center;
 }
 .slide_cont img{
+    width: 80%;
+    height: 80%;
     border-radius: 50px;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
 }
@@ -283,7 +310,7 @@ body{
 
 .tech_img img{
     border-radius: 10px;
-    margin: 0 10px;
+    margin:10px;
     width: 150px;
     height: 150px;
     /* border: 1px solid black; */
@@ -291,4 +318,21 @@ body{
     backdrop-filter: saturate(180%) blur(10px);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 
+}
+
+.slide_main_tech{
+    display: flex;
+    
+    align-content: center;
+    justify-content: center;
+}
+
+.carousel{
+    width: 60%;
+    height: 60%;
+}
+
+.carousel-inner{
+    border-radius: 30px;
+    margin-bottom: 30px;
 }
