@@ -18,18 +18,20 @@
 
 </head>
 <body>
-    
+    <!-- Navigation Bar -->
     <div class="nav_head">  
         <div class="nav_title"><h1 style="margin-top:15px ;">Realtime Communication System</h1></div>
         <div class="icons">
             <ul class="header-list">
                 <li class="header-list-elements"><a class="link-tag" id="profile_page" href='./profile'>Profile</a></li>
                 <li class="header-list-elements"><a class="link-tag" href="/about">About</a></li>
-                <li class="header-list-elements"><a class="link-tag" href="/">Home</a></li>
+                <li class="header-list-elements"><a class="link-tag" href="/home">Home</a></li>
                 <li class="header-list-elements"><a class="link-tag" href="https://github.com/IBM-EPBL/IBM-Project-21317-1659777635" target="_blank" ><i class="fa-brands fa-github"></i></a></li>
             </ul>        
         </div>
     </div>
+    <!-- Navigation Bar Ends -->
+    <!-- Main Body -->
     <h1>Voice to Text Converter</h1>
     <div class="audio_main">
 
@@ -41,7 +43,7 @@
                 <a id="click_to_record"><img src="../static/img/mic_3.jpg" alt="mic" ></a>
                 <br>
                 <a onclick="clr()" class="an" >Clear</a> <br>   
-                <a href="/" class="an" >Stop Translate</a>
+                <a href="/home" class="an" >Stop Translate</a>
             </div>
 
             <div class="audio_msg">
@@ -55,13 +57,17 @@
         </div>
 
     </div>
+    <!-- Main Body Ends -->
 
+    <!-- Footer -->
     <p id="copyrights" style="color: #474E68; font-size:15px; width:100; text-align:center;"></p>
     </footer>
+    <!-- Footer Ends -->
+
     <script>
         const d = new Date();
         document.getElementById("copyrights").innerHTML ="Copyright © "+ d.getFullYear();
-        
+        //Translating the text
         click_to_record.addEventListener('click',function(){
             var speech = true;
             window.SpeechRecognition = window.webkitSpeechRecognition;

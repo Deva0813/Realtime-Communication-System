@@ -303,16 +303,14 @@ body{
 }
 
 .tech_img{
-    padding: 0 50px;
-    margin-bottom: 50px;
     text-align: center;
 }
 
 .tech_img img{
     border-radius: 10px;
     margin:10px;
-    width: 150px;
-    height: 150px;
+    width: 30%;
+    height: 17.5%;
     /* border: 1px solid black; */
     background: rgba(255, 255, 255, 0.5);
     backdrop-filter: saturate(180%) blur(10px);
@@ -321,18 +319,29 @@ body{
 }
 
 .slide_main_tech{
-    display: flex;
-    
-    align-content: center;
     justify-content: center;
+    flex: 3;
+    padding: 30px;
 }
 
 .carousel{
-    width: 60%;
-    height: 60%;
+    justify-content: right;
+    width: 100%;
+    height: 100%;
 }
 
 .carousel-inner{
     border-radius: 30px;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
+}
+
+.tech_double_con{
+    display: flex;
+    flex-direction: row;
+}
+
+.tech_img{
+    padding: 30px;
+    padding-left: 0%;
+    flex: 1;
 }

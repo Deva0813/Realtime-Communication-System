@@ -64,7 +64,6 @@ def display():
         if key==ord('q'):
             break
     
-    cap.release()
-    cv.destroyAllWindows()
-
 display()
+cap.release()
+cv.destroyAllWindows()
