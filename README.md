@@ -1,4 +1,3 @@
-# IBM-Project-21317-1659777635
 ## **PROJECT TITLE** :
 ### _Real-Time Communication System Powered by AI for Specially Abled_
 <img src="./Project Development Phase/Sprint 4/Project/static/img/RTCS.png" style="border-radius:10px;">
@@ -59,33 +58,4 @@ python app.py
 ### ML & AI :
 <img src="https://www.pngitem.com/pimgs/m/75-753841_tensorflow-logo-transparent-hd-png-download.png" height="100px" width="100px">&nbsp;&nbsp;<img src="https://www.vhv.rs/dpng/d/38-384674_opencv-logo-png-transparent-png.png" height="100px" width="100px">&nbsp;&nbsp;<img src="https://yt3.ggpht.com/ytc/AMLnZu_8Rf063m9hsmDJnDEn26sy-5YYvDr5e2fJWr2O=s900-c-k-c0x00ffffff-no-rj" height="100px" width="100px">&nbsp;&nbsp;
 
-<hr>
-
-## 📃 PROJECT FILES :
-### 🎯 IDEATION PHASE
-#### Empathy Map : <a href="./Project Design & Planning/Ideation Phase/Empathy Map/Empathy Map.png" >Link</a>
-#### Ideation-Brain Strom : <a href="./Project Design & Planning/Ideation Phase/Ideation/Ideation-BrainStrom.png" >Link</a>
-#### Literature Survey : <a href="./Project Design & Planning/Ideation Phase/Literature Survey/LITERATURE-SURVEY.pdf">Link</a>
-#### Problem Statement : <a href="./Project Design & Planning/Ideation Phase/Problem Statement/Problem Statement.pdf" >Link</a>
-### 🎯 PROJECT DESIGN PHASE - I
-#### Problem Solution Architecture : <a href="./Project Design & Planning/Project Design Phase - I/Problem Solution Architecture.pdf">Link</a>
-#### Problem Solution Fit : <a href=".//Project Design & Planning/Project Design Phase - I/Problem solution fit.png">Link</a>
-#### Proposed Solution : <a href="./Project Design & Planning/Project Design Phase - I/Proposed Solution.pdf">Link</a>
-### 🎯 PROJECT DESIGN PHASE - II
-#### Customer Journey : <a href="./Project Design & Planning/Project Design Phase - II/Customer Journey/Customer Journey.pdf">Link</a>
-#### Dataflow Diagram : <a href="./Project Design & Planning/Project Design Phase - II/Dataflow Diagarm/Data Flow Diagrams and User Stories.pdf">Link</a>
-#### Solution Requirement : <a href="./Project Design & Planning/Project Design Phase - II/Functional Requirement/Solution Requirements.pdf">Link</a>
-#### Technology Stack : <a href="./Project Design & Planning/Project Design Phase - II/Technology Stack/Technology Stack.pdf" >Link</a>
-### 🎯 PROJECT PLANNING PHASE
-#### JIRA : <a href="./Project Design & Planning/Project Planning Phase/JIRA/">Link</a>
-#### Milestone & Activity list : <a href="./Project Design & Planning/Project Planning Phase/Milestone and Activity List/Milestone and Activity List.pdf">Link</a>
-#### Sprint Delivery Plan : <a href="./Project Design & Planning/Project Planning Phase/Sprint Delivery Plan/Sprint Delivery Plan.pdf">Link</a>
-### 🎯 PROJECT DEVELOPMENT PHASE
-#### Sprint-I : <a href="./Project Development Phase/Sprint 1/">Link</a>
-#### Sprint-II : <a href="./Project Development Phase/Sprint 2/">Link</a>
-#### Sprint-III : <a href="./Project Development Phase/Sprint 3/">Link</a>
-#### Sprint-IV : <a href="./Project Development Phase/Sprint 4/">Link</a>
-#### Performance Testing : <a href="./Project Development Phase/Preformance Testing/Performance Testing - Artificial Intelligence.pdf" >Link</a>
-#### User Acceptence Testing : <a href="./Project Development Phase/User Acceptence Testing/">Link</a>
-### 🎯 PRE-REQUISITIES <a href="./Pre-Requisites and Project structure/">Link</a>
 <hr>
