@@ -1,6 +1,8 @@
 ## **PROJECT TITLE** :
 ### _Real-Time Communication System Powered by AI for Specially Abled_
-<img src="./Project Development Phase/Sprint 4/Project/static/img/RTCS.png" style="border-radius:10px;">
+
+![RTCS](https://user-images.githubusercontent.com/90745606/204100434-34d345e7-5a26-4895-9773-9c4ac85ab9c6.png)
+
 <hr>
 
 ## 👩‍💻 TEAM ID : PNT2022TMID22290
