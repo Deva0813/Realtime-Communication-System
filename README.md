@@ -53,7 +53,7 @@ python app.py
 ### BACKEND :
 <img src="https://www.citypng.com/public/uploads/preview/hd-python-logo-symbol-transparent-png-11639606208newcm5th7y.png" height="100px" width="100px">&nbsp;&nbsp;<img src="https://ih1.redbubble.net/image.2488655049.9084/st,small,507x507-pad,600x600,f8f8f8.jpg" height="100px" width="100px">
 ### DATABASE AND APIs :
-<img src="https://zappysys.com/blog/wp-content/uploads/2016/09/google-sheets-api-integration.png" height="100px" width="100px">&nbsp;&nbsp;<img src="https://www.pngitem.com/pimgs/m/377-3779794_google-cloud-speech-to-text-logo-google-cloud.png" height="100px" width="100px">&nbsp;&nbsp;<img src="https://zeevector.com/wp-content/uploads/IBM-Watson-Logo-VECTOR.png" height="100px">&nbsp;&nbsp;
+<img src="https://www.vectorlogo.zone/logos/mongodb/mongodb-ar21.png" height="100px" width="200px">&nbsp;&nbsp;<img src="https://www.pngitem.com/pimgs/m/377-3779794_google-cloud-speech-to-text-logo-google-cloud.png" height="100px" width="100px">&nbsp;&nbsp;<img src="https://zeevector.com/wp-content/uploads/IBM-Watson-Logo-VECTOR.png" height="100px">&nbsp;&nbsp;
 ### ML & AI :
 <img src="https://www.pngitem.com/pimgs/m/75-753841_tensorflow-logo-transparent-hd-png-download.png" height="100px" width="100px">&nbsp;&nbsp;<img src="https://www.vhv.rs/dpng/d/38-384674_opencv-logo-png-transparent-png.png" height="100px" width="100px">&nbsp;&nbsp;<img src="https://yt3.ggpht.com/ytc/AMLnZu_8Rf063m9hsmDJnDEn26sy-5YYvDr5e2fJWr2O=s900-c-k-c0x00ffffff-no-rj" height="100px" width="100px">&nbsp;&nbsp;
 
