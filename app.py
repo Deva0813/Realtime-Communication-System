@@ -1,9 +1,12 @@
-from flask import Flask ,render_template,Response,jsonify
+from flask import Flask ,render_template,Response,jsonify,request
 import opencv
 import trainlist
+import webbrowser
+import backend.mongo as mongo
 
 video_camera = None
 global_frame = None
+
 app=Flask(__name__)
 
         
@@ -25,7 +28,7 @@ def translate():
     opencv.cap=opencv.cv.VideoCapture(0)
     txt=label_text()
     return render_template('video_out.html',txt=txt.json)
-
+    
 def gen_vid():     # Video Stream
     global video_camera 
     global global_frame  
@@ -59,7 +62,7 @@ def sign_up():
 @app.route("/") #for login page
 def login():
     opencv.cap.release()
-    return render_template('login.html')
+    return render_template('login.html',userinfo=None)
 
 @app.route("/profile")      # Profile page
 def profile():
@@ -76,11 +79,41 @@ def audio():
     opencv.cap.release()
     return render_template('audio_out.html')
 
+@app.route('/validate', methods=['POST'])
+def validate_sign():
+    email = request.form['email']
+    password = request.form['password']
+    if mongo.validate(email,password):
+        userinfo=mongo.show(email)
+        return render_template('login.html',accept="success",userinfo=userinfo,email=email,password=password)
+    else:
+        return render_template('login.html',accept="failed",userinfo=None,email=email,password=None)
+    
+@app.route('/signup', methods=['POST'])
+def getvalue():
+    username = request.form['name']
+    email = request.form['email']
+    password = request.form['password']
+    disability = request.form['inputDisability']
+    role = request.form['inputRole']
+    if username and email and password and disability and role:
+        if mongo.insert(username,email,password,disability,role):
+            accept="success"
+            return render_template('sign_up.html',accept=accept,email=email,username=username)
+        else:
+            accept="exist"
+            return render_template('sign_up.html',accept=accept,email=email,username=username)
+    else:
+        accept="failed"
+        return render_template('sign_up.html',accept=accept,email=email,username=username)
+    
+
+
 # Copyrigths:
 # Devanand
 # Dhinesh
-# opencv.cap.release()
+# webbrowser.open("http://127.0.0.1:5000/")
 
 
 if __name__=="__main__":
-    app.run(host='0.0.0.0', threaded=True , debug=True)
+    app.run(host='0.0.0.0', threaded=True ,port=5000,debug=True)
