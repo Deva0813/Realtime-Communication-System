@@ -2,12 +2,12 @@ from urllib.parse import quote_plus
 from pymongo import MongoClient
 
 # MongoDB connection string
-user=quote_plus("Deva@0813")
+user=quote_plus("YOUR PASSWORD")
 
-client=MongoClient("mongodb+srv://Devanand:"+user+"@devadb.mi8y86o.mongodb.net/?retryWrites=true&w=majority")
+client=MongoClient("mongodb+srv://USER_NAME:"+user+"@devadb.mi8y86o.mongodb.net/?retryWrites=true&w=majority")
 
-db=client["login_info"]
-col=db["login0"]
+db=client["DB_NAME"]
+col=db["COLLECTION_NAME"]
 
 #Validate email and password
 def validate(email,password): 
