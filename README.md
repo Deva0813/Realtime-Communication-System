@@ -5,7 +5,7 @@
 
 <hr>
 
-## 👩‍💻 TEAM ID : PNT2022TMID22290
+## 👩‍💻 TEAM 
 #### TEAM DETAILS :
 **TEAM LEADER** &nbsp;&nbsp;- _Devanand M_<br>
 **TEAM MEMBER** - _Dhinesh M_<br>
